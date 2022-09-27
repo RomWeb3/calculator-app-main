@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+
+
+<body>
+  <main>
+    <header>
+      <h2>calc</h2>
+      <div class="wrapped">
+      <h3>theme</h3>
+      <div class="toggleTheme">
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+      <input id="themeSelector" type="range" value="1" step="1" min="1" max="3" onchange="rangevalue.value=value">
+      <output id="rangevalue"></output>
+      </div>
+      </div>
+      </header>
+
+    <section class="screen">
+      <div class="boxResult">
+        <div data-previous-result class="previousResult">0</div>
+          <div data-result class="result">0</div>
+      </div>
+    </section> 
+
+    <section class="calc">
+      <div class="boxCalc">
+        <button data-number class="keys">7</button>
+        <button data-number class="keys">8</button>
+        <button data-number class="keys">9</button>
+        <button data-delete id="del" class="keys">del</button>
+        <button data-number class="keys">4</button>
+        <button data-number class="keys">5</button>
+        <button data-number class="keys">6</button>
+        <button data-operation class="keys">+</button>
+        <button data-number class="keys">1</button>
+        <button data-number class="keys">2</button>
+        <button data-number class="keys">3</button>
+        <button data-operation class="keys">-</button>
+        <button data-number class="keys">.</button>
+        <button data-number class="keys">0</button>
+        <button data-operation class="keys">/</button>
+        <button data-operation class="keys">x</button>
+        </div>
+        <div class="wrap">
+        <button data-reset id="reset" class="reset">reset</button>
+        <button data-equal class="equal">=</button>
+        </div>
+    </section>
+
+
+
+
+
+
+
+  
+ 
+  </main>
+<script src="script.js"></script>
+</body>
+</html>

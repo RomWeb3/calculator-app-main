@@ -1,0 +1,71 @@
+
+body {
+    background: hsl(268, 75%, 9%);
+}
+
+header {
+    color: hsl(52, 100%, 62%);
+}
+
+input {
+    background: hsl(268, 71%, 12%);
+}
+
+input[type=range]::-webkit-slider-thumb {            
+    background: hsl(176, 100%, 44%);
+}
+
+.screen {
+    background: hsl(268, 71%, 12%);
+}
+
+.result {
+    color: hsl(52, 100%, 62%);
+}
+
+.previousResult {
+    color: hsla(52, 100%, 62%, 0.75);
+}
+
+.calc {
+    background-color: hsl(268, 71%, 12%);
+}
+
+.keys {
+    background: hsl(268, 47%, 21%);
+    color: hsl(52, 100%, 62%);
+    box-shadow: inset 0px -3.5px 0px 0px hsl(290, 70%, 36%);
+}
+
+.keys:hover {
+    background: hsl(268, 54%, 44%);
+}
+
+.keys:nth-child(4) {
+    color: white;
+    background: hsl(281, 89%, 26%);
+    box-shadow: inset 0px -3.5px 0px 0px hsl(285, 91%, 52%);
+}
+
+.keys:nth-child(4):hover {
+    background: hsl(280, 56%, 44%);
+}
+
+.reset {
+    background: hsl(281, 89%, 26%);
+    box-shadow: inset 0px -3.5px 0px 0px hsl(285, 91%, 52%);
+}
+
+.reset:hover {
+    background: hsl(280, 56%, 44%);
+}
+
+.equal {
+    background: hsl(176, 100%, 44%);
+    color: hsl(268, 75%, 9%);
+    box-shadow: inset 0px -3.5px 0px 0px hsl(177, 92%, 70%);
+}
+
+.equal:hover {
+    background: hsl(177, 100%, 79%);
+}

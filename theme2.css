@@ -1,0 +1,72 @@
+
+body {
+    background: hsl(0, 0%, 90%);
+}
+
+header {
+    color: hsl(60, 10%, 19%);
+}
+
+input {
+    background: hsl(0, 5%, 81%);
+}
+
+input[type=range]::-webkit-slider-thumb {           
+    background: hsl(6, 63%, 50%);
+}
+
+.screen {
+    background: hsl(0, 0%, 93%);
+}
+
+.result {
+    color: hsl(60, 10%, 19%);
+}
+
+.previousResult {
+    color: hsla(60, 9%, 19%, 0.75);
+}
+
+.calc {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.keys {
+    background: hsl(30, 25%, 89%);
+    box-shadow: inset 0px -3.5px 0px 0px hsl(35, 11%, 61%);
+    color: hsl(60, 10%, 19%);
+}
+
+.keys:hover {
+    background: white;
+}
+
+.keys:nth-child(4) {
+    color: white;
+    background: hsl(185, 42%, 37%);
+    box-shadow: inset 0px -3.5px 0px 0px hsl(185, 58%, 25%);
+}
+
+.keys:nth-child(4):hover {
+    background: hsl(185, 41%, 56%);
+}
+
+.reset {
+    background: hsl(185, 42%, 37%);
+    color: white;
+    box-shadow: inset 0px -3.5px 0px 0px hsl(185, 58%, 25%);
+}
+
+.reset:hover {
+    background: hsl(185, 41%, 56%);
+}
+
+.equal {
+    background: hsl(6, 63%, 50%);
+    color: white;
+    box-shadow: inset 0px -3.5px 0px 0px hsl(25, 99%, 27%);
+}
+
+.equal:hover {
+    background: hsl(6, 93%, 67%);
+}
